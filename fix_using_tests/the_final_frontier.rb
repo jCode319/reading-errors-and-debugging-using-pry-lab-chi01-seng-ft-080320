@@ -5,7 +5,7 @@ def generate_star_date
 end
 
 def state_log(star_date)
-  "Captain's Log, star date"
+  "Captain's Log, star date /"
 end
 
 def engage
