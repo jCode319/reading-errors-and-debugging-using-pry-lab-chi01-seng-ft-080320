@@ -7,13 +7,11 @@ end
 
 
 def state_log(star_date)
-  binding.pry
   "Captain's Log, star date #{star_date}."
-  binding.pry
-  puts "hello"
 end
 
 def engage
   puts state_log(date)
+  binding.pry
   date = generate_star_date
 end
